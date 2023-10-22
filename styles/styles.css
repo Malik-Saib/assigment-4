@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+    /* Header */
+.starting {
+    background-color: whitesmoke;
+    box-shadow: 0 0 3px black;
+    border: 2px solid transparent;
+    height: 40px;
+    width: 100%;
+}
+a {
+    letter-spacing: 3px;
+    text-decoration: none;
+    margin: 10px;
+    float: right;
+    font-family: sans-serif;
+    color: rgb(100, 100, 100);
+}
+
+#para1{
+    color: rgb(100, 100, 100);
+    letter-spacing: 3px;
+    display: inline-block;
+    margin: 10px;
+    font-family: sans-serif;
+}
+#head-Up {
+    color: black;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-family: sans-serif;
+    background-color: whitesmoke;
+}
+
+    /* Container 1 */
+.container1 {
+    border: 1px solid transparent;
+    height: 500px;
+    width: 80%;
+    margin: 0px auto;
+    background-image: url(../assest/images/architect.jpg);
+    background-position: center;
+}
+h1{
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    text-align: center;
+    margin: 230px auto;
+}
+.BR {
+    font-weight: bold;
+    border-radius: 25%;
+    padding: 5px;
+    border: 1px solid transparent;
+    background-color: rgba(71, 71, 71, 0.87);
+    color: white;
+}
+
+h2 {
+    margin: 60px;
+    margin-left: 130px;
+}
+
+   /*Container 2 */
+.container2 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    padding: 10px 130px;
+  }
+  
+  .container2 > div {
+    height:150px;
+    width: 100%;
+    border: 0 solid transparent;
+    background-size: cover;
+}
+span {
+    display: inline-block;
+    padding: 5px;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+#div1 {
+    background-image: url(../assest/images/house2.jpg);
+}
+#div2 {
+    background-image: url(../assest/images/house3.jpg);
+}
+#div3 {
+    background-image: url(../assest/images/house4.jpg);
+}
+#div4 {
+    background-image: url(../assest/images/house5.jpg);
+}
+#div5 {
+    background-image: url(../assest/images/house5.jpg);
+}
+#div6 {
+    background-image: url(../assest/images/house2.jpg);
+}
+#div7 {
+    background-image: url(../assest/images/house3.jpg);
+}
+#div8 {
+    background-image: url(../assest/images/house4.jpg);
+}
+
+
+/* Container 3 */
+h2{
+    font-family: sans-serif;
+    font-weight: 10;
+    word-spacing: 4px;
+}
+h4{
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(170, 165, 165);
+}
+#text_1{
+    font-family: sans-serif;
+    font-size: 15px;
+    opacity: .6;
+}
+.about{
+    text-align: center;
+}
+#div{
+    display: inline-block;
+    width: 259px;
+    height: 80px;
+    margin: 30px;
+}
+#div_1{
+    display: inline-block;
+    width: 259px;
+    height: 400px;
+    padding-top: 200px;
+    background-image: url(../assest/images/team1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20px;
+}
+#div_2{
+    display: inline-block;
+    width: 259px;
+    height: 400px;
+    padding-top: 200px;
+    background-image: url(../assest/images/team2.jpg);
+    background-size: cover;
+    height: 20px;
+}
+#div_3{
+    display: inline-block;
+    width: 259px;
+    height: 400px;
+    padding-top: 200px;
+    background-image: url(../assest/images/team3.jpg);
+    background-size: cover;
+    height: 20px;
+}
+#div_4{
+    display: inline-block;
+    width: 259px;
+    height: 400px;
+    padding-top: 200px;
+    background-image: url(../assest/images/team4.jpg);
+    background-size: cover;
+    height: 20px;
+}
+#paraghraph{
+    color: red;
+    color: rgb(94, 94, 94);
+    text-transform: capitalize;
+    font-family: sans-serif;
+    font: 20;
+}
+#paraghraph-1{
+    margin:0px 150px;
+    text-align: justify;
+    font-family: sans-serif;
+}
+h3{
+    font-family: sans-serif;
+}
+
+/* Container 4 */
+#line{
+    margin-left: 130px;
+    font-family: sans-serif;
+}
+.table > input{
+    padding: 8px;
+    border: 1px solid rgb(221, 232, 241);
+    border-radius: 4px;
+    margin-top: 2%;
+    margin-left: 130px;
+    width: 80%;
+}
+.table > button {
+    margin-top: 10px;
+    margin-left: 130px;
+    padding: 5px;
+    color:white;
+    background-color: black;
+    font-family: 'Raleway', sans-serif;
+}
+.map {
+    height: 600px;
+    width: 80%;
+    margin-left: 130px;
+    margin-top: 30px;
+    background-image: url(../assest/images/map.jpg);
+    background-size:cover ;
+}
+
+/* footer */
+.footer {
+    border: 2px solid black;
+    height: 40px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 7px;
+    margin-top: 5px;
+    font-family: sans-serif;
+}
